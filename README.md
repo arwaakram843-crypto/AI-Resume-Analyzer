@@ -1,12 +1,12 @@
-#**AI Resume Screening Automation**
- #**Overview**
+**AI Resume Screening Automation**
+ **Overview**
 
 AI Resume Screening Automation is an intelligent recruitment assistance system that automates resume evaluation by comparing candidate resumes against job descriptions using Artificial Intelligence.
 
 The system extracts content from PDF and DOCX resumes, analyzes candidate qualifications, and generates a compatibility score along with skill matching insights and recommendations.
 
 
-\##**Features**
+**Features**
 
 \* Resume Upload (PDF, DOCX, TXT)
 \* Automatic Resume Text Extraction
@@ -18,33 +18,33 @@ The system extracts content from PDF and DOCX resumes, analyzes candidate qualif
 \* Recruitment Recommendations
 
 
-\##**Technologies Used**
-\### *Frontend*
+\**Technologies Used**
+\ *Frontend*
 
 \* HTML5
 \* CSS3
 \* JavaScript
 
 
-\### *Backend*
+\ *Backend*
 \* Node.js
 \* Express.js
 
 
-\### *AI Integration*
+\ *AI Integration*
 
 \* OpenRouter API
 \* GPT-4o-mini
 
 
-\### *File Processing*
+\ *File Processing*
 
 \* Multer
 \* PDF-Parse
 \* Mammoth
 
 
-\## **Workflow**
+\ **Workflow**
 
 1\. Upload Resume
 2\. Extract Resume Content
@@ -54,7 +54,7 @@ The system extracts content from PDF and DOCX resumes, analyzes candidate qualif
 6\. Display Skills, Gaps, and Recommendations
 
 
-\## **Future Enhancements**
+\ **Future Enhancements**
 
 \* Candidate Ranking Dashboard
 \* Multiple Resume Screening
@@ -62,7 +62,7 @@ The system extracts content from PDF and DOCX resumes, analyzes candidate qualif
 \* HR Analytics Dashboard
 
 
-\## **Author**
+ **Author**
 
 Arwa Akram
 BS Computer Science
