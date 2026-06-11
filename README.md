@@ -9,62 +9,89 @@ The system extracts content from PDF and DOCX resumes, analyzes candidate qualif
 **Features**
 
 \* Resume Upload (PDF, DOCX, TXT)
+
 \* Automatic Resume Text Extraction
+
 \* Job Description Analysis
+
 \* AI-Powered Resume Screening
+
 \* Skill Matching Detection
+
 \* Missing Skill Identification
+
 \* Candidate Match Percentage
+
 \* Recruitment Recommendations
 
 
-\**Technologies Used**
-\ *Frontend*
+**Technologies Used**
+ **Frontend**
 
 \* HTML5
+
 \* CSS3
+
 \* JavaScript
 
 
-\ *Backend*
+ **Backend**
+ 
 \* Node.js
+
 \* Express.js
 
 
-\ *AI Integration*
+ **AI Integration**
 
 \* OpenRouter API
+
 \* GPT-4o-mini
 
 
-\ *File Processing*
+ **File Processing**
 
 \* Multer
+
 \* PDF-Parse
+
 \* Mammoth
 
 
-\ **Workflow**
-
-1\. Upload Resume
-2\. Extract Resume Content
-3\. Enter Job Description
-4\. AI Compares Resume with Job Requirements
-5\. Generate Match Score
-6\. Display Skills, Gaps, and Recommendations
+**Workflow**
 
 
-\ **Future Enhancements**
+1. Upload Resume
+
+2. Extract Resume Content
+
+3. Enter Job Description
+
+4. AI Compares Resume with Job Requirements
+
+5. Generate Match Score
+
+6. Display Skills, Gaps, and Recommendations
+
+
+ **Future Enhancements**
+ 
 
 \* Candidate Ranking Dashboard
+
 \* Multiple Resume Screening
+
 \* ATS Compatibility Analysis
+
 \* HR Analytics Dashboard
 
 
  **Author**
+ 
 
 Arwa Akram
+
 BS Computer Science
+
 Government College University Faisalabad
 
