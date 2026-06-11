@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Upload Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Upload Your Resume</h1>
+
+
+<!-- ===== HEADER / NAVBAR ===== -->
+<header class="navbar">
+  <div class="logo">AI RESUME SCREENING</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="upload.html">Upload</a></li>
+    <li><a href="jobdescription.html">Job description</a></li>
+    <li><a href="result.html">Result</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+<!-- =========================
+     UPLOAD RESUME HERO SECTION
+     HEADER INCLUDED NAHI HAI
+========================= -->
+
+<section class="upload-section">
+
+  <!-- Background Glow -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- Main Container -->
+  <div class="upload-container">
+
+    <!-- Left Content -->
+    <div class="upload-left">
+
+      <span class="small-tag">
+        AI Powered Resume Screening
+      </span>
+
+      <h1>
+        Upload Your Resume <br>
+        For AI Analysis
+      </h1>
+
+      <p>
+        Upload your professional resume in PDF or DOC format.
+        Our AI system will scan your resume, analyze skills,
+        and compare it with job requirements instantly.
+      </p>
+
+      <!-- Features -->
+
+      <!-- Right Side -->
+      <div class="upload-right">
+
+        <div class="upload-card">
+
+          <h2>Upload Your Resume</h2>
+
+          <p class="upload-subtitle">
+            Upload your resume file to get started
+          </p>
+
+          <!-- Upload Box -->
+          <div class="upload-box">
+
+            <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+
+            <h3>Drag & Drop your file here</h3>
+
+            <p>or</p>
+
+            <input type="file" id="resumeFile" hidden>
+
+            <label for="resumeFile" class="choose-btn">
+              Choose File
+            </label>
+
+            <p class="supported-text">
+              Supported formats: PDF, DOCX
+            </p>
+
+            <!-- File Name -->
+            <p id="file-name">
+              No file selected
+            </p>
+
+          </div>
+
+          <!-- OR Line -->
+          <div class="or-line">
+            <span>OR</span>
+          </div>
+
+          <!-- Resume Text -->
+          <div class="resume-text-box">
+
+            <label>
+              Paste Resume Text (Optional)
+            </label>
+              <textarea id="resumeText" placeholder="Paste your resume text here..."></textarea>
+
+          </div>
+
+          <!-- Upload Button -->
+          <button class="upload-btn" onclick="uploadResume()">
+  Next → Job Description
+</button>
+          
+        
+
+        </div>
+      </div>
+
+    </div>
+
+</section>
+<script src="upload.js"></script>
+
+</body>
+</html>

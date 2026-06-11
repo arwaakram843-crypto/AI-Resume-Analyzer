@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- YAHAN lagana hai (head ke andar) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="navbar">
+        <div class="logo">AI RESUME SCREENING</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="jobdescription.html">Job description</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    
+        <!-- =========================
+     JOB DESCRIPTION HERO SECTION
+     HEADER INCLUDED NAHI HAI
+========================= -->
+
+        <section class="job-description-section">
+
+            <!-- Background Glow -->
+            <div class="bg-glow glow1"></div>
+            <div class="bg-glow glow2"></div>
+
+            <!-- Main Container -->
+            <div class="job-container">
+
+                <!-- Left Content -->
+                <div class="job-left">
+
+                    <span class="small-tag">
+                        AI Powered Resume Screening
+                    </span>
+
+                    <h1>
+                        Enter Job Description <br>
+                        & Required Skills
+                    </h1>
+
+                    <p>
+                        Paste the complete job description or required skills below.
+                        Our AI system will compare the resume with job requirements
+                        and generate an accurate candidate match score instantly.
+                    </p>
+
+                    <!-- Features -->
+                    <div class="feature-boxes">
+
+                        <div class="feature-card">
+                            <div class="icon">✓</div>
+                            <div>
+                                <h3>Skill Matching</h3>
+                                <p>Detects matching skills automatically.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div>
+                                <h3>Fast Analysis</h3>
+                                <p>AI gives instant screening results.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="icon"> <i class="fa-solid fa-check"></i></i></div>
+                            <div>
+                                <h3>Accurate Score</h3>
+                                <p>Generates professional match scoring.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Side -->
+                <div class="job-right">
+
+                    <div class="job-card">
+
+                        <h2>Job Requirements</h2>
+
+                        <textarea id="jobDesc" placeholder="Example:
+
+We are looking for a candidate with:
+
+* Python
+* SQL
+* Communication Skills
+* Problem Solving
+* Teamwork
+* Leadership
+
+Paste complete job description here...
+"></textarea>
+
+                        <button type="button" class="analyze-btn">
+    <i class="fa-solid fa-chart-line"></i>
+    Analyze Resume
+</button>
+
+<button type="button" class="clear-btn">
+    <i class="fa-solid fa-trash"></i>
+    Clear
+</button>
+                        <!-- YAHAN ADD KARO -->
+                        <p class="security-text">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            Your data is secure and never shared.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+  </section>
+  <script src="jobdescription.js"></script>
+    
+  </body>
+  </html>

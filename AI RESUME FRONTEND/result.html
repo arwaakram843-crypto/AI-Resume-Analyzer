@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- YAHAN lagana hai (head ke andar) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Website</title>
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">AI RESUME SCREENING</div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="upload.html">Upload</a></li>
+      <li><a href="jobdescription.html">Job description</a></li>
+      <li><a href="result.html">Result</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- =========================================
+        RESULT PAGE HERO SECTION
+        HEADER INCLUDED NAHI HAI
+========================================= -->
+
+<section class="result-section">
+
+    <!-- Background Effects -->
+    <div class="result-glow glow-one"></div>
+    <div class="result-glow glow-two"></div>
+
+    <div class="result-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="result-left">
+
+            <span class="result-tag">
+                AI Resume Analysis Complete
+            </span>
+
+            <h1>
+                Smart Resume <br>
+                Screening Results
+            </h1>
+
+            <p>
+                Our AI system has analyzed the candidate’s resume
+                and compared it with the job requirements to generate
+                an accurate match score with detailed insights.
+            </p>
+
+            <!-- Stats -->
+            <div class="stats-wrapper">
+
+                <div class="stat-card">
+                    <h2 id="overallMatch">0%</h2>
+                    <span>Overall Match</span>
+                </div>
+
+                <div class="stat-card">
+                    <h2 id="matchedCount">0</h2>
+                    <span>Matched Skills</span>
+                </div>
+
+                <div class="stat-card">
+                    <h2 id="missingCount">0</h2>
+                    <span>Missing Skills</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="result-right">
+
+            <div class="analysis-card">
+
+                <!-- Top -->
+                <div class="top-result">
+
+                    <div class="score-circle">
+
+                        <div class="circle" id="scoreCircle">
+    <h2 id="scorePercentage">0%</h2>
+    <span id="scoreLabel">Analysis</span>
+</div>
+
+                    </div>
+
+                    <div class="score-content">
+
+                        <h2>Resume Analysis Result</h2>
+
+                        <p>
+                            The AI analysis is shown below. If no result appears, please run the analysis first.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div id="analysisOutput" class="analysis-output"></div>
+
+                <!-- Skills Section -->
+                <div class="skills-section">
+
+                    <!-- Matched -->
+<div class="skills-box matched">
+
+    <div class="skills-title">
+        <i class="fa-solid fa-circle-check"></i>
+        Matched Skills
+    </div>
+
+    <div class="skills-tags" id="matchedSkills">
+
+    </div>
+
+</div>
+
+                    <!-- Missing -->
+<div class="skills-box missing">
+
+    <div class="skills-title">
+        <i class="fa-solid fa-circle-xmark"></i>
+        Missing Skills
+    </div>
+
+    <div class="skills-tags" id="missingSkills">
+
+    </div>
+
+</div>
+                <!-- Bottom Cards -->
+                <div class="bottom-cards">
+
+                    <div class="mini-card">
+
+                        <div class="mini-title">
+                            <i class="fa-solid fa-file-lines"></i>
+                            Summary
+                        </div>
+
+                       <p id="summaryText">
+    Loading summary...
+</p>
+
+                    </div>
+
+                    <div class="mini-card">
+
+                        <div class="mini-title">
+                            <i class="fa-solid fa-star"></i>
+                            Recommendation
+                        </div>
+
+                       <p id="recommendationText">
+Recommendation will appear here...
+</p>
+                    </div>
+
+                </div>
+
+                <!-- Button -->
+                <button class="upload-again-btn">
+                    <i class="fa-solid fa-upload"></i>
+                    Upload Another Resume
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script src="result.js"></script>
+    
+</body>
+</html> 
